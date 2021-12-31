@@ -1,3 +1,5 @@
+import codeInput from "../components/codeInput";
+
 export default {
   name: 'code',
   title: 'Code',
@@ -16,7 +18,8 @@ export default {
     {
       name: 'code',
       title: 'Code',
-      type: 'string'
+      type: 'string',
+      inputComponent: codeInput
     },
   ]
 }
